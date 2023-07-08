@@ -1,0 +1,17 @@
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#date {
+    height: 5vh;
+}
+
+#calc {
+    height: 5.6vh;
+    background-color: green;
+    color: white;
+    border: 0;
+}
