@@ -17,7 +17,6 @@ function calcDaysUntilBirthday() {
         num %= 10;
         if (num === 1) {
             return one;
-
         } else if (num >= 2 && num <= 4) {
             return two;
         } else {
