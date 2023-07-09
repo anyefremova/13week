@@ -23,7 +23,6 @@ function calcDaysUntilBirthday() {
             return three;
         }
     }
-    console.log(getDates(1, "день", "дня", "дней"));
 
     const dateDif = dateTimestamp - currentTimesramp;
     const result = Math.floor(dateDif / (1000 * 60 * 60 * 24));
